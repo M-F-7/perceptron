@@ -34,7 +34,7 @@ def load_data(ctx):
 def main():
     args = sys.argv[1:]
     len_args = len(args)
-    try:
+    try: 
         if not len_args == 1:
             raise ValueError("Wrong number of arguments")
         method = checkmethod(args[0])
